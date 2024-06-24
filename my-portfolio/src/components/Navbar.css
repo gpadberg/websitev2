@@ -1,0 +1,26 @@
+nav {
+    background-color: rgba(30, 30, 30, 0.8); /* Dark background with transparency */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed; /* Make the navbar sticky */
+    width: 100%; /* Ensure it spans the full width */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #bbb;
+  }
+  
+  body {
+    padding-top: 50px; /* Adjust padding to prevent content from being hidden behind navbar */
+  }
+  

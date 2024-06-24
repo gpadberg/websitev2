@@ -1,0 +1,50 @@
+section#about {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .resume-button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    transform: scale(1.1);
+    background-color: #555;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 50px;
+    filter: brightness(0) invert(1); /* Invert colors for dark theme */
+    transition: transform 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
