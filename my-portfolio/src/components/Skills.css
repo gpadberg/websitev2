@@ -12,3 +12,14 @@ section#skills {
     font-size: 1.2em;
   }
   
+  .skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .skills {
+    width: 50px;
+    transition: transform 0.3s ease;
+  }
